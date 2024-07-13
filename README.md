@@ -1,4 +1,4 @@
-## Hi there 👋
+## 🌐 Hello World
 
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&theme=gruvbox" height="180" alt="andrea-marangione-stats"  />
