@@ -24,6 +24,6 @@ Software development is my passion, which is why I am always looking for improvi
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg"/>
 </a>
 
-<a href="https://t.me/joinchat/SpqRPBFo_sM6qm05">
-  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
+<a href="https://www.instagram.com/andrea.marangione">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg"/>
 </a>
