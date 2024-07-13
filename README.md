@@ -1,7 +1,7 @@
 ## Hi there 👋
 
-![AndreaMarangione's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&theme=onedark)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AndreaMarangione&theme=onedark&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+![AndreaMarangione's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&theme=gruvbox)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AndreaMarangione&theme=gruvbox&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 
 <!--
