@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![AndreaMarangione's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&theme=radical)
+![AndreaMarangione's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&theme=dark)
 
 
 <!--
