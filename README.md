@@ -1,6 +1,6 @@
 ## 🌐 Hello World
 
-I'm a full-stack developer specializing in the MERN stack. My experience comes from the design and software installation of industrial automatic systems located around the world.
+I'm a full-stack developer specializing in the MERN stack. My experience comes from the development and software installation of industrial automatic systems located around the world.
 Software development is my passion, which is why I am always looking for improving myself to expand my skills.
 
 ## 🛠 Technology Stack
