@@ -13,10 +13,17 @@ Software development is my passion, which is why I am always looking for improvi
 * Axios, Redux
 * Bootstrap, Tailwind
 
-## Statistics:
+## 📈 Statistics
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&theme=gruvbox" height="180" alt="andrea-marangione-stats"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndreaMarangione&theme=gruvbox&layout=compact" height="180" alt="andrea-marangione-stats"  />
 </div>
 
+## 📫 Contacts
+<a href="https://www.linkedin.com/in/andrea-marangione-b4bbb916b/">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg"/>
+</a>
 
+<a href="https://t.me/joinchat/SpqRPBFo_sM6qm05">
+  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
+</a>
