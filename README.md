@@ -22,13 +22,12 @@ Software development is my passion, which is why I am always looking for improvi
 ## 📫 Contacts
 
 <div align="left">
-<a href="https://www.linkedin.com/in/andrea-marangione-b4bbb916b/" target="_blank">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="50" height="50" alt="instagram"/>
-</a>
-<img width="12" />
-<a href="https://www.instagram.com/andrea.marangione" target="_blank">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="50" height="50" alt="instagram"/>
-</a>
+  <a href="https://www.linkedin.com/in/giacomobartoli" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.instagram.com/giacomosx/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+  </a>
 </div>
 
 <a align="left" href='mailto:marangione9@gmail.com'>marangione9@gmail.com</a>
