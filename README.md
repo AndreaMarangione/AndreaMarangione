@@ -21,13 +21,7 @@ I'm a full-stack developer specializing in the MERN stack. My experience comes f
 ## 📫 Contacts
 
 <div align="left">
-    <a href="mailto:marangione9@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="50" height="40" alt="gmail"  />
-  </a>
-  <a href="https://www.linkedin.com/in/andrea-marangione-b4bbb916b/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="50" height="40" alt="linkedin"  />
-  </a>
-  <a href="https://www.instagram.com/andrea.marangione" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="50" height="40" alt="instagram"  />
-  </a>
+    <a href="mailto:marangione9@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="50" height="40" alt="gmail"/></a>
+  <a href="https://www.linkedin.com/in/andrea-marangione-b4bbb916b/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="50" height="40" alt="linkedin" /></a>
+  <a href="https://www.instagram.com/andrea.marangione" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="50" height="40" alt="instagram"/></a>
 </div>
