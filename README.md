@@ -1,8 +1,8 @@
 ## Hi there 👋
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&theme=gruvbox" height="200" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndreaMarangione&theme=gruvbox&layout=compact" height="200" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&theme=gruvbox" height="180" alt="andrea-marangione-stats"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndreaMarangione&theme=gruvbox&layout=compact" height="180" alt="andrea-marangione-stats"  />
 </div>
 
 <!--
