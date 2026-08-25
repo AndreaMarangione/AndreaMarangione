@@ -28,14 +28,6 @@ These days I also build for the web. Same job, different runtime.
 
 ---
 
-## ⚡ Currently
-
-R&D at **Elettromar S.p.A.** — new automation applications, PLC side and server/client
-architectures, for industrial plants and luxury yachts. Plus test benches in Houston for
-Baker Hughes' prototype turbines.
-
----
-
 ## 📈 Statistics
 
 <div align="left">
