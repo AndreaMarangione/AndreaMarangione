@@ -2,7 +2,7 @@
 
 > **Automate anything, find the right solution.**
 
-I design and develop industrial automation software, from initial concept to full system commissioning. I build reliable solutions for both small and large-scale plants, focused on performance, efficiency, and real-world impact
+I design and develop industrial automation software, from initial concept to full system commissioning. I build reliable solutions for both small and large-scale plants, focused on performance, efficiency, and real-world impact.
 
 **The plants, the sites, the numbers → [andreamarangione.com](https://andreamarangione.com)**
 
