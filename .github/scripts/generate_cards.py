@@ -159,6 +159,13 @@ def icon(kind, x, y):
     if kind == "star":
         return (f'<path transform="translate({x},{y}) scale(0.62)" fill="{c}" '
                 'd="M8 .25l2.28 4.62 5.1.74-3.69 3.6.87 5.08L8 11.9l-4.56 2.39.87-5.08L.62 5.61l5.1-.74z"/>')
+    if kind == "repo":
+        return (f'<path transform="translate({x},{y}) scale(0.62)" fill="{c}" fill-rule="evenodd" '
+                'd="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5'
+                'a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Z'
+                'm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5'
+                'a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7'
+                'a.25.25 0 0 1-.4-.2Z"/>')
     if kind == "commit":
         return (f'<g transform="translate({x},{y}) scale(0.62)" fill="{c}">'
                 '<path d="M10.86 7a3.5 3.5 0 0 0-6.72 0H1v2h3.14a3.5 3.5 0 0 0 6.72 0H15V7z"/>'
@@ -180,7 +187,7 @@ def card_stats(d):
     W, H = 495, 195
     year = datetime.now(timezone.utc).year
     rows = [
-        ("star", "Total Stars Earned", d["stars"]),
+        ("repo", "Repositories", d["repos"]),
         ("commit", f"Total Commits ({year})", d["commits"]),
         ("pr", "Total PRs", d["prs"]),
         ("issue", "Total Issues", d["issues"]),
