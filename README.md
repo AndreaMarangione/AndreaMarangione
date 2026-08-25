@@ -2,8 +2,6 @@
 
 > **Automate anything, find the right solution.**
 
-I write the software that makes factories run by themselves.
-
 I started at 19, and since then I've designed complete industrial plants — from the
 production floor all the way to palletizing — then flown out to commission them on site
 until every line ran fully autonomous, 24/7. China, Turkey, Spain, Germany, the USA.
