@@ -15,18 +15,18 @@ TITLE = "#E95420"
 ICON = "#E95420"
 TEXT = "#F5F5F5"
 SANS = "Segoe UI, Ubuntu, sans-serif"
-TOP_LANGS = 10      
-MAX_REPOS = 100    
+TOP_LANGS = 10
+MAX_REPOS = 100
 
-QUERY = """
-query($login: String!, $from: DateTime!) {
-  user(login: $login) {
+FIELDS = """
     name
+    login
     followers { totalCount }
     pullRequests { totalCount }
     issues { totalCount }
     contributionsCollection(from: $from) {
       totalCommitContributions
+      restrictedContributionsCount
     }
     repositoriesContributedTo(
       contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]
@@ -45,25 +45,35 @@ query($login: String!, $from: DateTime!) {
         }
       }
     }
-  }
-}
 """ % MAX_REPOS
 
+QUERY_PRIVATE = "query($from: DateTime!) { viewer {" + FIELDS + "} }"
+QUERY_PUBLIC = "query($login: String!, $from: DateTime!) { user(login: $login) {" + FIELDS + "} }"
+
 def fetch():
-    if not TOKEN:
+    personal = bool(os.environ.get("GH_TOKEN"))
+    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+
+    if not token:
         sys.exit("ERRORE: manca il token (GH_TOKEN o GITHUB_TOKEN).")
 
     year_start = datetime(datetime.now(timezone.utc).year, 1, 1, tzinfo=timezone.utc)
-    payload = json.dumps({
-        "query": QUERY,
-        "variables": {"login": LOGIN, "from": year_start.isoformat()},
-    }).encode()
+
+    if personal:
+        query = QUERY_PRIVATE
+        variables = {"from": year_start.isoformat()}
+    else:
+        print("ATTENZIONE: GH_TOKEN assente, i repository privati non verranno conteggiati.")
+        query = QUERY_PUBLIC
+        variables = {"login": LOGIN, "from": year_start.isoformat()}
+
+    payload = json.dumps({"query": query, "variables": variables}).encode()
 
     req = urllib.request.Request(
         "https://api.github.com/graphql",
         data=payload,
         headers={
-            "Authorization": f"bearer {TOKEN}",
+            "Authorization": f"bearer {token}",
             "Content-Type": "application/json",
             "User-Agent": f"{LOGIN}-stats-cards",
         },
@@ -75,7 +85,9 @@ def fetch():
     if "errors" in body:
         sys.exit("ERRORE API: " + json.dumps(body["errors"], indent=2))
 
-    user = body.get("data", {}).get("user")
+    data = body.get("data") or {}
+    user = data.get("viewer") or data.get("user")
+
     if not user:
         sys.exit("ERRORE: utente non trovato o dati vuoti.")
 
@@ -83,11 +95,11 @@ def fetch():
 
 def summarize(user):
     repos = user["repositories"]["nodes"]
-
+    contrib = user["contributionsCollection"]
     stars = sum(r["stargazerCount"] for r in repos)
-
     sizes = {}
     colors = {}
+
     for r in repos:
         for e in r["languages"]["edges"]:
             name = e["node"]["name"]
@@ -102,7 +114,8 @@ def summarize(user):
     return {
         "name": user.get("name") or LOGIN,
         "stars": stars,
-        "commits": user["contributionsCollection"]["totalCommitContributions"],
+        "commits": (contrib["totalCommitContributions"]
+                    + contrib.get("restrictedContributionsCount", 0)),
         "prs": user["pullRequests"]["totalCount"],
         "issues": user["issues"]["totalCount"],
         "contributed": user["repositoriesContributedTo"]["totalCount"],
@@ -120,7 +133,7 @@ def rank(d):
         + d["followers"] * 2.0
         + d["contributed"] * 3.0
     )
-    
+
     pct = 100 * (1 - math.exp(-score / 900))
 
     for limit, letter in ((90, "S"), (78, "A+"), (66, "A"), (54, "B+"),
@@ -166,7 +179,7 @@ def card_stats(d):
         ("commit", f"Total Commits ({year})", d["commits"]),
         ("pr", "Total PRs", d["prs"]),
         ("issue", "Total Issues", d["issues"]),
-        ("person", "Contributed to (last year)", d["contributed"]),
+        ("person", "Contributed to", d["contributed"]),
     ]
 
     letter, pct = rank(d)
