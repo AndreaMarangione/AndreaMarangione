@@ -2,11 +2,7 @@
 
 > **Automate anything, find the right solution.**
 
-I started at 19, and since then I've designed complete industrial plants — from the
-production floor all the way to palletizing — then flown out to commission them on site
-until every line ran fully autonomous, 24/7. China, Turkey, Spain, Germany, the USA.
-
-These days I also build for the web. Same job, different runtime.
+I design and develop industrial automation software, from initial concept to full system commissioning. I build reliable solutions for both small and large-scale plants, focused on performance, efficiency, and real-world impact
 
 **The plants, the sites, the numbers → [andreamarangione.com](https://andreamarangione.com)**
 
