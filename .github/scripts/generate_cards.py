@@ -198,9 +198,9 @@ def card_stats(d):
         y = 68 + i * 25
         s.append(icon(kind, 25, y - 11))
         s.append(txt(48, y, label, 14, TEXT))
-        s.append(txt(320, y, f"{val:,}".replace(",", " "), 14, TEXT, "700"))
+        s.append(txt(320, y, f"{val:,}".replace(",", "."), 14, TEXT, "700"))
 
-    cx, cy, r = 400, 105, 40
+    cx, cy, r = 420, 105, 40
     circ = 2 * math.pi * r
     s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{BORDER}" stroke-width="6"/>')
     s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{TITLE}" stroke-width="6" '
