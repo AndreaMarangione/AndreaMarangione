@@ -31,8 +31,8 @@ These days I also build for the web. Same job, different runtime.
 ## 📈 Statistics
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&hide_border=true&title_color=E95420&icon_color=E95420&text_color=F5F5F5&bg_color=1E1E1E" height="170" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndreaMarangione&layout=compact&hide_border=true&title_color=E95420&text_color=F5F5F5&bg_color=1E1E1E" height="170" alt="top languages" />
+  <img src="./assets/stats.svg" height="170" alt="GitHub stats" />
+  <img src="./assets/langs.svg" height="170" alt="Most used languages" />
 </div>
 
 ---
