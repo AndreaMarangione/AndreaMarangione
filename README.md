@@ -1,27 +1,58 @@
-## 🌐 Hello World
+# 🌐 Hello World
 
-I'm a full-stack developer specializing in the MERN stack. My experience comes from the development and software installation of industrial automatic systems located around the world. Software programming is my passion, which is why I am always looking for improving myself to expand my skills.
+> **Automate anything, find the right solution.**
 
-## 🛠 Technology Stack
+I write the software that makes factories run by themselves.
 
-* Javascript ES6
-* Node.js, Express
-* Cloudinary, Multer
-* MongoDB, Mongoose
-* React
-* Axios, Redux
-* Bootstrap, Tailwind
+I started at 19, and since then I've designed complete industrial plants — from the
+production floor all the way to palletizing — then flown out to commission them on site
+until every line ran fully autonomous, 24/7. China, Turkey, Spain, Germany, the USA.
+
+These days I also build for the web. Same job, different runtime.
+
+**The plants, the sites, the numbers → [andreamarangione.com](https://andreamarangione.com)**
+
+---
+
+## 🛠 Two stacks, one mindset
+
+**Automation**
+
+`Structured Text` `STL` `Ladder` `FBD` `TIA Portal` `Simatic Manager` `Startdrive`
+`ToolboxST` `Proficy Machine Edition` `Cimplicity` `Profinet` `Profisafe` `Modbus` `EGD`
+
+**Software**
+
+`TypeScript` `JavaScript` `C#` `.NET` `Python` `C++` `React` `Next.js` `Node.js` `Express`
+`PostgreSQL` `MongoDB` `Prisma` `Tailwind` `REST API` `Linux`
+
+---
+
+## ⚡ Currently
+
+R&D at **Elettromar S.p.A.** — new automation applications, PLC side and server/client
+architectures, for industrial plants and luxury yachts. Plus test benches in Houston for
+Baker Hughes' prototype turbines.
+
+---
 
 ## 📈 Statistics
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&theme=gruvbox" height="180" alt="andrea-marangione-stats"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndreaMarangione&theme=gruvbox&layout=compact" height="180" alt="andrea-marangione-stats"  />
-</div>
-
-## 📫 Contacts
 
 <div align="left">
-    <a href="mailto:marangione9@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="50" height="40" alt="gmail"/></a>
-  <a href="https://www.linkedin.com/in/andrea-marangione-b4bbb916b/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="50" height="40" alt="linkedin" /></a>
-  <a href="https://www.instagram.com/andrea.marangione" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="50" height="40" alt="instagram"/></a>
+  <img src="https://github-readme-stats.vercel.app/api?username=AndreaMarangione&show_icons=true&hide_border=true&title_color=E95420&icon_color=E95420&text_color=F5F5F5&bg_color=1E1E1E" height="170" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndreaMarangione&layout=compact&hide_border=true&title_color=E95420&text_color=F5F5F5&bg_color=1E1E1E" height="170" alt="top languages" />
 </div>
+
+---
+
+## 📫 Reach me
+
+[![Email](https://img.shields.io/badge/Email-E95420?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marangione9@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-E95420?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrea-marangione-b4bbb916b/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-E95420?style=for-the-badge&logo=firefox&logoColor=white)](https://andreamarangione.com)
+
+<br>
+
+```console
+andrea@portfolio:~$ cd ~/projects
+```
