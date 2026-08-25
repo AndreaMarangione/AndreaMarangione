@@ -27,6 +27,10 @@ FIELDS = """
     contributionsCollection(from: $from) {
       totalCommitContributions
       restrictedContributionsCount
+      totalIssueContributions
+      totalPullRequestContributions
+      totalPullRequestReviewContributions
+      contributionCalendar { totalContributions }
     }
     repositoriesContributedTo(
       contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]
@@ -122,6 +126,7 @@ def summarize(user):
         "followers": user["followers"]["totalCount"],
         "repos": user["repositories"]["totalCount"],
         "langs": langs,
+        "contrib": contrib,
     }
 
 def rank(d):
@@ -243,7 +248,14 @@ def main():
     with open(f"{OUT_DIR}/langs.svg", "w", encoding="utf-8") as f:
         f.write(card_langs(data))
 
-    print("card generate:", {k: v for k, v in data.items() if k != "langs"})
+    c = data["contrib"]
+    print("commit                  :", c["totalCommitContributions"])
+    print("commit privati nascosti :", c["restrictedContributionsCount"])
+    print("issue                   :", c["totalIssueContributions"])
+    print("pull request            :", c["totalPullRequestContributions"])
+    print("review                  :", c["totalPullRequestReviewContributions"])
+    print("totale grafico          :", c["contributionCalendar"]["totalContributions"])
+    print("card generate:", {k: v for k, v in data.items() if k not in ("langs", "contrib")})
     print("linguaggi:", data["langs"])
 
 
