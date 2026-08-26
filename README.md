@@ -33,6 +33,6 @@ I design and develop industrial automation software, from initial concept to ful
 
 ## 📫 Reach me
 
-[![Email](https://img.shields.io/badge/Email-E95420?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marangione9@gmail.com)
+[![Email](https://img.shields.io/badge/Email-E95420?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marangione.dev@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-E95420?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrea-marangione-b4bbb916b/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-E95420?style=for-the-badge&logo=firefox&logoColor=white)](https://andreamarangione.com)
