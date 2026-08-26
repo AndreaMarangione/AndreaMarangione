@@ -218,7 +218,7 @@ def card_stats(d):
     return "\n".join(s)
 
 def card_langs(d):
-    W, H = 320, 195
+    W, H = 495, 195
     langs = d["langs"]
 
     l = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
@@ -237,11 +237,11 @@ def card_langs(d):
         off += seg
 
     for i, (name, pct, col) in enumerate(langs):
-        cx = 25 + (i % 2) * 148
+        cx = 25 + (i % 2) * 230
         cy = 92 + (i // 2) * 26
         l.append(f'<circle cx="{cx+5}" cy="{cy-4}" r="5" fill="{col}"/>')
         l.append(txt(cx + 18, cy, name, 13, TEXT))
-        l.append(txt(cx + 128, cy, f"{pct:.1f}%", 13, TEXT, anchor="end"))
+        l.append(txt(cx + 200, cy, f"{pct:.1f}%", 13, TEXT, anchor="end"))
 
     l.append('</svg>')
     return "\n".join(l)
