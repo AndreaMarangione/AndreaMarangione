@@ -25,8 +25,8 @@ I design and develop industrial automation software, from initial concept to ful
 ## 📈 Statistics
 
 <div align="left">
-<img src="./assets/stats.svg" height="140" alt="GitHub stats" />
-<img src="./assets/langs.svg" height="140" alt="Most used languages" />
+  <img src="./assets/stats.svg?v=2" height="140" alt="GitHub stats" />
+  <img src="./assets/langs.svg?v=2" height="140" alt="Most used languages" />
 </div>
 
 ---
