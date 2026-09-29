@@ -4,12 +4,12 @@
 <clipPath id="bar"><rect x="25" y="55" width="445" height="9" rx="4.5"/></clipPath>
 <rect x="25.0" y="55" width="253.4" height="9" fill="#7355dd" clip-path="url(#bar)"/>
 <rect x="277.8" y="55" width="135.4" height="9" fill="#3178c6" clip-path="url(#bar)"/>
-<rect x="412.6" y="55" width="26.4" height="9" fill="#e34c26" clip-path="url(#bar)"/>
-<rect x="438.4" y="55" width="19.7" height="9" fill="#f1e05a" clip-path="url(#bar)"/>
-<rect x="457.5" y="55" width="9.9" height="9" fill="#663399" clip-path="url(#bar)"/>
-<rect x="466.9" y="55" width="4.2" height="9" fill="#3572A5" clip-path="url(#bar)"/>
-<rect x="470.4" y="55" width="1.0" height="9" fill="#f34b7d" clip-path="url(#bar)"/>
-<rect x="470.9" y="55" width="0.6" height="9" fill="#3B2F63" clip-path="url(#bar)"/>
+<rect x="412.6" y="55" width="26.0" height="9" fill="#e34c26" clip-path="url(#bar)"/>
+<rect x="438.0" y="55" width="19.7" height="9" fill="#f1e05a" clip-path="url(#bar)"/>
+<rect x="457.1" y="55" width="9.9" height="9" fill="#663399" clip-path="url(#bar)"/>
+<rect x="466.4" y="55" width="4.2" height="9" fill="#3572A5" clip-path="url(#bar)"/>
+<rect x="470.0" y="55" width="1.0" height="9" fill="#f34b7d" clip-path="url(#bar)"/>
+<rect x="470.4" y="55" width="0.6" height="9" fill="#3B2F63" clip-path="url(#bar)"/>
 <circle cx="30" cy="88" r="5" fill="#7355dd"/>
 <text x="43" y="92" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#F5F5F5" font-weight="normal" text-anchor="start">C#</text>
 <text x="225" y="92" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#F5F5F5" font-weight="normal" text-anchor="end">56.8%</text>
@@ -18,7 +18,7 @@
 <text x="455" y="92" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#F5F5F5" font-weight="normal" text-anchor="end">30.3%</text>
 <circle cx="30" cy="114" r="5" fill="#e34c26"/>
 <text x="43" y="118" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#F5F5F5" font-weight="normal" text-anchor="start">HTML</text>
-<text x="225" y="118" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#F5F5F5" font-weight="normal" text-anchor="end">5.8%</text>
+<text x="225" y="118" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#F5F5F5" font-weight="normal" text-anchor="end">5.7%</text>
 <circle cx="260" cy="114" r="5" fill="#f1e05a"/>
 <text x="273" y="118" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#F5F5F5" font-weight="normal" text-anchor="start">JavaScript</text>
 <text x="455" y="118" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#F5F5F5" font-weight="normal" text-anchor="end">4.3%</text>
