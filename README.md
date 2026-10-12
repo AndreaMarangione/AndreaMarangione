@@ -15,7 +15,7 @@ I design and develop industrial automation software, from initial concept to ful
 `Structured Text` `STL` `Ladder` `FBD` `TIA Portal` `Simatic Manager` `Startdrive`
 `ToolboxST` `Proficy Machine Edition` `Cimplicity` `Profinet` `Profisafe` `Modbus` `EGD`
 
-**Software**
+**Web**
 
 `TypeScript` `JavaScript` `C#` `.NET` `Python` `C++` `React` `Next.js` `Node.js` `Express`
 `PostgreSQL` `MongoDB` `Prisma` `Tailwind` `REST API` `Linux`
